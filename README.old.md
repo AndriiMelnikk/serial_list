@@ -1,2 +1,0 @@
-# mauris
- Test Task React
