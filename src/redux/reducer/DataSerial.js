@@ -110,6 +110,9 @@ export const getMoviesAll = (date) => {
 }
 export const setDateSerial = (date) => {
     return async (dispatch) => {
+
+        console.log(123)
+
         let moon = date.moon + 1,
             day = date.day,
             moonString = moon < 10 ? '0' + moon : moon, dayString = day < 10 ? '0' + day : day,

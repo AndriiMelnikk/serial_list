@@ -6,7 +6,6 @@ import { clearMovies } from "../../redux/reducer/DataSerial";
 import Home from "./home";
 
 const CalendarComponent = (props) => {
-  console.log(props);
   return <Home />;
 };
 const mapStateToProps = () => ({});

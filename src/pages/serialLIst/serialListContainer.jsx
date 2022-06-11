@@ -9,6 +9,7 @@ import {
 } from "../../redux/reducer/DataSerial";
 import SerialLIst from "./serialLIst";
 const SerialLIstComponent = (props) => {
+  console.log(props)
   useEffect(() => {
     return () => {
       props.clearMovies();

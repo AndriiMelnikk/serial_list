@@ -22,7 +22,6 @@ const SerialLIst = (props) => {
         number={e.number}
         moviesTop={props.getMoviesTop}
         moviesAll={props.getMoviesAll}
-        // loader={props.loader}
       />
     );
   });
@@ -119,4 +118,5 @@ const Serial = ({ show }) => {
     </SerialS>
   );
 };
+
 export default SerialLIst;
